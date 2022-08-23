@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="listners.Testnglistners"></listener></listeners>
+  <test thread-count="5" name="healthinsurance">
+    <classes>
+      <class name="testclasses.Searchproducttest"/>
+          <class name="testclasses.Selectinsuredtest"/>
+             <class name="testclasses.Selectagetest"/>
+                <class name="testclasses.Selectcityanddetailstest"/>
+            
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
